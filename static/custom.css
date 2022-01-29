@@ -1,0 +1,115 @@
+/* Lower profile div in sidebar */
+aside div {
+  padding-top: 8vh;
+}
+
+/* Disable lower case transform for side navbar */
+aside nav ul li {
+  text-transform: none;
+}
+
+/* Anchor contact links on bottom */
+ul.social {
+  position: relative !important;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 16px 0 16px 0 !important;
+  margin: 0;
+}
+
+/* Margin for social icons */
+ul.social li {
+  margin: 0 4px 0 4px;
+}
+
+/* Abilitate bold titles for pages */
+header h1 {
+  font-weight: 500;
+}
+
+/* Allow for page to take up full dimensions + footer anchored on bottom */
+main {
+  height: initial;
+  padding-top: 2%;
+}
+
+main article {
+  max-width: 100% !important;
+}
+
+main article div {
+  max-width: 100% !important;
+}
+
+/* Add bottom padding and horizontal margin to footer */
+main footer {
+  padding-bottom: 4px;
+  margin: 0 8% 0;
+}
+
+/* Fix the damned ghost line above body */
+h1 {
+  margin-top: 0;
+}
+
+/* Badge icon for lists + flex settings*/
+.badge-icon {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 5px;
+}
+
+/* Founder propic */
+.founder-propic {
+  width: 220px;
+  height: 220px;
+  margin-bottom: 5px;
+}
+
+/* Founder icon */
+.founder-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  vertical-align:middle;
+}
+
+/* Wrapping flexbox */
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.nowrap { 
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.wrap { 
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.wrap-reverse { 
+  -webkit-flex-wrap: wrap-reverse;
+  flex-wrap: wrap-reverse;
+}
+
+.flex-item-card {
+  padding: 5px;
+  margin: 15px;
+  text-align: center;
+}
+
+.flex-item-card-full-width {
+  margin: 5px auto 5px auto;
+}
