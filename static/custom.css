@@ -8,6 +8,16 @@ aside nav ul li {
   text-transform: none;
 }
 
+/* Adjust Ko-fi button padding */
+.btn-container {
+  padding: 16px 0 16px 0 !important;
+}
+
+/* Disable Ko-fi image rounded border */
+.kofiimg {
+  border-radius: 0% !important;
+}
+
 /* Anchor contact links on bottom */
 ul.social {
   position: relative !important;
