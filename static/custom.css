@@ -63,26 +63,45 @@ h1 {
   margin-top: 0;
 }
 
-/* Badge icon for lists + flex settings*/
-.badge-icon {
+/* Badge icons for lists + flex settings*/
+.badge-icon-100 {
   width: 120px;
   height: 120px;
   margin-bottom: 5px;
 }
 
-/* Founder propic */
-.founder-propic {
+.badge-icon-75 {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 5px;
+}
+
+.badge-icon-50 {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 5px;
+}
+
+/* Big image*/
+.big-image {
   width: 220px;
   height: 220px;
   margin-bottom: 5px;
 }
 
-/* Founder icon */
-.founder-icon {
+/* Small image */
+.small-image {
   width: 50px;
   height: 50px;
   margin-right: 10px;
   vertical-align:middle;
+}
+
+/* Flex sub container */
+.flex-sub-container {
+  background-color: #404040;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 /* Wrapping flexbox */
@@ -90,13 +109,20 @@ h1 {
   padding: 0;
   margin: 0;
   list-style: none;
-  -ms-box-orient: horizontal;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -moz-flex;
   display: -webkit-flex;
   display: flex;
+}
+
+.flex-horizontal {
+  flex-direction: row;
+}
+
+.flex-vertical {
+  flex-direction: column;
 }
 
 .nowrap { 
@@ -116,8 +142,9 @@ h1 {
 
 .flex-item-card {
   padding: 5px;
-  margin: 15px;
+  margin: 5px;
   text-align: center;
+  flex-grow: 1;
 }
 
 .flex-item-card-full-width {
