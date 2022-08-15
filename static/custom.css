@@ -94,7 +94,7 @@ h1 {
   width: 50px;
   height: 50px;
   margin-right: 10px;
-  vertical-align:middle;
+  vertical-align: middle;
 }
 
 /* Flex sub container */
@@ -102,6 +102,7 @@ h1 {
   background-color: #404040;
   padding: 10px;
   border-radius: 10px;
+  height: 97%;
 }
 
 /* Wrapping flexbox */
@@ -125,24 +126,24 @@ h1 {
   flex-direction: column;
 }
 
-.nowrap { 
+.nowrap {
   -webkit-flex-wrap: nowrap;
   flex-wrap: nowrap;
 }
 
-.wrap { 
+.wrap {
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
-.wrap-reverse { 
+.wrap-reverse {
   -webkit-flex-wrap: wrap-reverse;
   flex-wrap: wrap-reverse;
 }
 
 .flex-item-card {
   padding: 5px;
-  margin: 5px;
+  margin: 10px;
   text-align: center;
   flex-grow: 1;
 }
