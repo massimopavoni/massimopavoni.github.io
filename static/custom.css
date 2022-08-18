@@ -10,7 +10,7 @@ aside nav ul li {
 
 /* Adjust Ko-fi button padding */
 .btn-container {
-  padding: 16px 0 16px 0 !important;
+  padding: 16px 0 !important;
 }
 
 /* Disable Ko-fi image rounded border */
@@ -24,13 +24,13 @@ ul.social {
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 16px 0 16px 0 !important;
+  padding: 16px 0 !important;
   margin: 0;
 }
 
 /* Margin for social icons */
 ul.social li {
-  margin: 0 4px 0 4px;
+  margin: 0 4px;
 }
 
 /* Abilitate bold titles for pages */
@@ -65,7 +65,7 @@ h1 {
 
 /* Zero margin */
 .m0 {
-  margin: 10px 0px 10px 0px !important;
+  margin: 10px 0px !important;
 }
 
 /* Margin fix */
@@ -108,7 +108,7 @@ h1 {
 
 /* Founder nick div */
 .founder-nick-div {
-  margin: 15px auto 15px auto;
+  margin: 15px auto;
 }
 
 /* Flex sub container */
@@ -116,7 +116,6 @@ h1 {
   background-color: #404040;
   padding: 10px;
   border-radius: 10px;
-  height: 97%;
 }
 
 /* Wrapping flexbox */
@@ -160,11 +159,17 @@ h1 {
 }
 
 .flex-item-card {
-  margin: 10px;
+  margin: 15px;
   text-align: center;
   flex-grow: 1;
 }
 
+.flex-card-force-h-wrap {
+  margin: 15px auto;
+  min-width: 280px;
+  max-width: 45%;
+}
+
 .flex-item-card-full-width {
-  margin: 5px auto 5px auto;
+  margin: 5px auto;
 }
