@@ -5,70 +5,70 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://localhost:8000/</loc>
-<lastmod>2022-10-26T11:25:42-00:00</lastmod>
+<lastmod>2022-11-10T14:24:53-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/tags.html</loc>
-<lastmod>2022-10-26T11:25:42-00:00</lastmod>
+<lastmod>2022-11-10T14:24:53-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/categories.html</loc>
-<lastmod>2022-10-26T11:25:42-00:00</lastmod>
+<lastmod>2022-11-10T14:24:53-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/authors.html</loc>
-<lastmod>2022-10-26T11:25:42-00:00</lastmod>
+<lastmod>2022-11-10T14:24:53-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/archives.html</loc>
-<lastmod>2022-10-26T11:25:42-00:00</lastmod>
+<lastmod>2022-11-10T14:24:53-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/</loc>
-<lastmod>2022-10-26T11:25:42-00:00</lastmod>
+<lastmod>2022-11-10T14:24:53-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/experience</loc>
-<lastmod>2022-10-26T11:25:42-00:00</lastmod>
+<lastmod>2022-11-10T14:24:53-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/interests-hobbies</loc>
-<lastmod>2022-10-26T11:25:42-00:00</lastmod>
+<lastmod>2022-11-10T14:24:53-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/not-declared-developers</loc>
-<lastmod>2022-10-26T11:25:42-00:00</lastmod>
+<lastmod>2022-11-10T14:24:53-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/portfolio</loc>
-<lastmod>2022-10-26T11:25:42-00:00</lastmod>
+<lastmod>2022-11-10T14:24:53-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
